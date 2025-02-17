@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab6.Project.Application.LogInController">
+    <children>
+        <!-- Log In Section -->
+        <Label layoutX="250.0" layoutY="20.0" text="Log In" />
+        <TextField fx:id="logInFirstName" layoutX="200.0" layoutY="60.0" prefWidth="200.0" promptText="First Name" />
+        <TextField fx:id="logInLastName" layoutX="200.0" layoutY="100.0" prefWidth="200.0" promptText="Last Name" />
+        <PasswordField fx:id="logInPassword" layoutX="200.0" layoutY="140.0" prefWidth="200.0" promptText="Password" />
+
+        <Button fx:id="logInButton" layoutX="260.0" layoutY="180.0" text="Log In" />
+
+        <!-- Sign Up Section -->
+        <Label layoutX="250.0" layoutY="220.0" text="Sign Up" />
+        <TextField fx:id="signUpFirstName" layoutX="200.0" layoutY="260.0" prefWidth="200.0" promptText="First Name" />
+        <TextField fx:id="signUpLastName" layoutX="200.0" layoutY="300.0" prefWidth="200.0" promptText="Last Name" />
+        <PasswordField fx:id="signUpPassword" layoutX="200.0" layoutY="340.0" prefWidth="200.0" promptText="Password" />
+        <Button fx:id="signUpButton" layoutX="260.0" layoutY="380.0" text="Sign Up" />
+      <AmbientLight color="CHARTREUSE" layoutX="104.0" layoutY="85.0" lightOn="true" />
+    </children>
+</AnchorPane>
